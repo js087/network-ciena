@@ -1,0 +1,10 @@
+Command ### Notes ### Device ### 
+system set host-name ### Set hostname ### 311v ### 
+port xcvr port <#> diag ### Shows specified port SFP diagnostics - light levels ### 311v ### 
+port monitor throughput ### Actively monitor traffic - 5 second samples. Software package dependent  ### 311v ### 
+log flash view ### Log view of the Cienna - good up to last reboot ### 311v ### 
+configuration search string ### Search the configuration for certain string ### all ### 
+chassis show ### Shows version and other information about the switch ### all ### 
+flow service-mapping show statistics ### looking at shaping offset bytes? Duplex might increase these ###  ### 
+virtual-switch show vs XXXX ### We can see what CVLAN's if any are there - verizon is dif than t-mobile. ###  ### 
+port xcvr show port xx vendor ### Will give you vendor information about the SFP (wavelength, single/multimode, etc) ### Ciena ### 
